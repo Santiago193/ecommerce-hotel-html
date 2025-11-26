@@ -1,3 +1,15 @@
 3D models folder.
 This directory contains external .glb files used by the project.
-These assets are stored separately due to their large file size.
+
+The model "mascota.glb" is NOT included because it exceeds GitHub's maximum file size limit (25 MB).
+To obtain or recreate this model, follow these steps:
+
+1. Go to the website PolyPizza (https://poly.pizza/) and search for a human or mascot-style 3D character.
+2. Download the character in a format that supports animation, such as **FBX**.
+3. Open the FBX file in any 3D tool that supports exporting, such as Blender, Mixamo, or an online FBX-to-GLB converter.
+4. Export or convert the model to **.glb** format.
+5. Place the resulting file inside the following directory in the project:
+
+src/main/webapp/images3d/
+
+These assets are stored separately due to their large size.
